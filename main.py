@@ -116,8 +116,8 @@ import mysql.connector
 # Connection à la base de données
 connection = mysql.connector.connect(
     host="localhost",
-    user="Angelo",
-    password="p1ssw0rd",
+    user="BonDataMiner",
+    password="IneedMoreData",
     database="LeFigaro"
 )
 
