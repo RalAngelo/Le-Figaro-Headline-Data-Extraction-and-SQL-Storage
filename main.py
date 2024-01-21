@@ -108,6 +108,7 @@ dfAuteur = pd.DataFrame({"AUTEUR": auteur_list})
 
 #data
 data = pd.concat([dfDate, dfHeure, dff, dfAuteur, dffLien, dfNbCommentaire], axis=1)
+data.to_csv('LeFigaro.csv', index=False)
 
 #*******************SQL*****************
 import mysql.connector
